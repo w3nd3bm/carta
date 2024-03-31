@@ -1,0 +1,278 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: #f1f1f1;
+    padding-bottom: 90px;
+}
+
+.conteiner {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.cabecalho .coluna{}
+
+.cabecalho figure{}
+.cabecalho figure img{
+    width: 90px;
+}
+
+.formularioPesquisa{
+    display: flex;
+    height: 40px;
+}
+
+.formularioPesquisa input{
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 0px 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+.formularioPesquisa button{
+    width: 60px;
+    border: 1px solid #cccccc;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+
+.formularioPesquisa button img{
+    width: 18px;
+}
+
+.imagemUsuario{}
+
+.cabecalho .imagemUsuario img{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.destaqueCanal {
+    background-image: url(img/ftTODO.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.secaoCanal {
+    background-color: #fff;
+}
+
+.secaoCanal .conteiner{}
+
+.detalheCanal {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.detalheCanal figure{
+    margin-right: 20px;
+}
+
+.detalheCanal figure img{
+    border-radius: 100%;
+    width: 80px;
+}
+
+.infoCanal {}
+.infoCanal h1{
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.infoCanal p{
+    font-size: 15px;
+}
+
+.menuNavegacaoCanal{}
+.menuNavegacaoCanal ul{
+    display: flex;
+    align-items: center;
+}
+
+.menuNavegacaoCanal ul li{}
+.menuNavegacaoCanal ul li a{
+    color: #606060;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menuNavegacaoCanal ul li button{
+    background-color: transparent;
+    border: none;
+}
+
+.menuNavegacaoCanal ul li img{
+    width: 18px;
+}
+
+.conteinerVideoDestaques{
+    width: 1300px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteinerVideoDestaques .coluna{}
+.conteinerVideoDestaques .coluna--esquerda{
+    width: 800px;
+}
+
+.conteinerVideoDestaques .coluna--direita{
+    width: 400px;
+}
+
+.secaoVideoDestaque {}
+.secaoVideoDestaque h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.secaoVideosDestaques__lista{}
+.secaoVideosDestaques__lista li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.secaoVideosDestaques__lista figure{
+    margin-right: 20px;
+}
+.secaoVideosDestaques__lista figure img{
+    width: 250px;
+  
+}
+.secaoVideosDestaques__lista li div{}
+.secaoVideosDestaques__lista li div h3{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.secaoVideosDestaques__lista li div span{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.secaoVideosDestaques__lista li div p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.buttonAdicionarAFila{
+    background-color: #d9d9d9;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 3px 9px;
+    color: #606060;
+    cursor: pointer;
+}
+
+.secaoAdicionarFila{
+    margin-top: 20px;
+    background-color: #f8f8f8;
+}
+
+.secaoAdicionarAfila__cabecalho{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.secaoAdicionarAfila__cabecalho h2{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.secaoAdicionarAfila__cabecalho p{
+    font-size: 15px;
+}
+
+.secaoAdicionarAfila__lista{
+    padding: 20px 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.secaoVideosDestaques__lista{}
+.secaoAdicionarAFila__lista li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.secaoAdicionarAFila__lista li figure{
+    margin-right: 10px;
+}
+.secaoAdicionarAFila__lista li figure img{
+    width: 100px;
+}
+.secaoAdicionarAFila__lista li div{}
+.secaoAdicionarAFila__lista li div h3{
+    font-size: 16px;
+}
+.secaoAdicionarAFila__lista li div span{
+    display: none;
+}
+.secaoAdicionarAFila__lista li div p{
+    display: none;
+}
+.secaoAdicionarAFila__lista li div button{
+    display: none;
+}
+
+.secaoTodosVideos{}
+.secaoTodosVideos .container{}
+
+.secaoTodosVideos h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.secaoTodosVideos h2 img{
+    margin-right: 10px;
+}
+
+.secaoTodosVideos__lista{
+    display: flex;
+    justify-content: space-between;
+}
+.secaoTodosVideos__lista li{
+    width: 200px;
+}
+.secaoTodosVideos__lista li figure{}
+.secaoTodosVideos__lista li figure img{
+    width: 100%;
+}
+.secaoTodosVideos__lista li div{}
+.secaoTodosVideos__lista li div h3{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.secaoTodosVideos__lista li div span{
+    font-size: 13px;
+}
+.secaoTodosVideos__lista li div p{
+    display: none;
+}
+.secaoTodosVideos__lista li div button{
+    margin-top: 10px;
+}
+
